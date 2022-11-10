@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+        body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="NOSSA-HISTORIA.HTML">NOSSA HISTORIA</a></li>
+                <li><a href="CONSULTAS.HTML">CONSULTAS</a></li>
+                <li><a href="IMUNIZAÇÃO.HTML">IMUNIZAÇÃO</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img width="740" height="248" src="https://mundoaparte.com.br/wp-content/uploads/2021/04/logomundo.png">
+                <p><center>Fisioterapia e Reabilitação para seu melhor amigo com muito carinho,<br> dedicação e conhecimento </center></p>
+            </div>    
+            <div class="content">
+                <table>
+                    <td><p><center>O <strong><i>A vacinação periódica</i></strong> previne diversas zoonoses (doenças transmitidas pelos animais ao homem, como: Raiva, Giárdia, Leptospirose) e também doenças comuns em cães (Cinomose, Hepatite Canina, Gripe Canina) e gatos (Rinotraqueíte, Calicivirose, Clamidiose)<br></p></td>
+           <td><img width="340" height="300"src="https://petsanus.com.br/wp-content/uploads/2021/10/Imunizacao-1.png" ></td>
+                </table>
+            </div>    
+            <div class="footer">
+        <table> <div class="container">
+    <tr>
+        <div class="row">
+        <td><img width="340" height="248" src="https://www.cptcursospresenciais.com.br/blog/wp-content/uploads/2021/08/triagem-veterin%C3%A1ria-facebook.jpg"></td>
+        <td><form id="contato" method="get"  >                         
+        <div class="section-header margem-acima-100">
+        <center><h3>Agende uma consulta</h3></center> </div>
+        <center><div class="col-md-4 col-sm-4">
+        <input type="text" class="form-control" placeholder="Nome" name="Nome" required=""></div>
+        <div class="col-md-4 col-sm-4">
+        <input type="text" class="form-control" placeholder="Email" name="Email" required=""></div>
+        <div class="col-md-4 col-sm-4">
+        <input type="text" class="form-control" placeholder="Telefone" name="Telefone ou Whatsapp" required=""></div>
+        <div class="col-md-3 col-sm-3">
+        <input type="text" class="form-control" name="NomePet" placeholder="Nome do seu Pet" required=""></div>
+        <div class="form-group col-md-3 col-sm-3">
+        <select name="TipoPet">
+        <option>Tenho um:</option>
+        <option>Cachorro</option>
+        <option>Gato</option>
+        <option>Outros</option>
+        </select></div>
+        <div class="form-group col-md-3 col-sm-3">
+        <select name="Servico">
+        <option>Serviço Desejado</option>
+        <option>Consulta</option>
+        <option>Banho</option>
+        <option>Tosa</option>
+        <option>Outros</option></select></div>
+        <div class="form-group col-md-3 col-sm-3">
+        <input class="form-control" id="datepicker" type="date" name="Data" value="Melhor Data" onfocus="this.value = '';"></div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+        <textarea class="form-control" rows="7" cols="20" placeholder="O que precisamos saber sobre o seu Pet?" name="Mensagem" required=""></textarea></div>
+        <input type="submit" id="" class="btn btn-default" value="ENVIAR">
+        <input type="submit" id="" class="reset" value="Limpar">
+        </form></td></Center><td>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63697.83938985054!2d-38.66876118925587!3d-3.7851534009777263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74d51f0826bd1%3A0xaea88ca980b7f869!2sCl%C3%ADnica%20Veterin%C3%A1ria%20Doctor%20Vet%2024%20horas!5e0!3m2!1spt-BR!2sbr!4v1668095780136!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </td></div> </div>
+
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

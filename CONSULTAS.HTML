@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+        body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="NOSSA-HISTORIA.HTML">NOSSA HISTORIA</a></li>
+                <li><a href="CONSULTAS.HTML">CONSULTAS</a></li>
+                <li><a href="IMUNIZAÇÃO.HTML">IMUNIZAÇÃO</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img width="740" height="248" src="https://mundoaparte.com.br/wp-content/uploads/2021/04/logomundo.png">
+                <p><center>Fisioterapia e Reabilitação para seu melhor amigo com muito carinho,<br> dedicação e conhecimento </center></p>
+            </div>
+    
+            <div class="content">
+                <table><Tr>
+                    <td><p><center>O <strong><i>Médico Veterinário</i></strong> clínico geral é quem avalia o paciente inicialmente, determinando assim qual conduta será seguida, podendo variar desde tratamento medicamentoso ao cirúrgico, sendo também o clínico responsável por triar pacientes que serão encaminhados para os especialistas, definindo a especialidade.<br></p></td>
+                <td><img width="140" height="100"src="https://petsanus.com.br/wp-content/uploads/2021/10/Consultas-Veterinarias.png"></td>
+                <tr><td><p><center>O <strong><i>laboratório</i></strong> de patologia clínica do Petsanus tem por finalidade atuar nas mais diferentes áreas de diagnóstico laboratorial, por meio da análise de fluidos corpóreos, sangue, secreções, materiais orgânicos e tecidos. O objetivo é obter a maior quantidade de informações necessárias para um diagnóstico correto e seguro, bem como desenvolver um perfil de saúde dos mesmos, o que é fundamental para a medicina preventiva.</center></p></td></tr>      
+                    <td><img width="140" height="100"src="data:image/jpeg;base64,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"></td></tr>
+                </table>
+            </div>
+    
+            <div class="footer">
+        <table> <div class="container">
+    <tr>
+        <div class="row">
+        <td><img width="340" height="248" src="https://www.cptcursospresenciais.com.br/blog/wp-content/uploads/2021/08/triagem-veterin%C3%A1ria-facebook.jpg"></td>
+        <td><form id="contato" method="get"  >                         
+        <div class="section-header margem-acima-100">
+        <center><h3>Agende uma consulta</h3></center> </div>
+        <center><div class="col-md-4 col-sm-4">
+        <input type="text" class="form-control" placeholder="Nome" name="Nome" required=""></div>
+        <div class="col-md-4 col-sm-4">
+        <input type="text" class="form-control" placeholder="Email" name="Email" required=""></div>
+        <div class="col-md-4 col-sm-4">
+        <input type="text" class="form-control" placeholder="Telefone" name="Telefone ou Whatsapp" required=""></div>
+        <div class="col-md-3 col-sm-3">
+        <input type="text" class="form-control" name="NomePet" placeholder="Nome do seu Pet" required=""></div>
+        <div class="form-group col-md-3 col-sm-3">
+        <select name="TipoPet">
+        <option>Tenho um:</option>
+        <option>Cachorro</option>
+        <option>Gato</option>
+        <option>Outros</option>
+        </select></div>
+        <div class="form-group col-md-3 col-sm-3">
+        <select name="Servico">
+        <option>Serviço Desejado</option>
+        <option>Consulta</option>
+        <option>Banho</option>
+        <option>Tosa</option>
+        <option>Outros</option></select></div>
+        <div class="form-group col-md-3 col-sm-3">
+        <input class="form-control" id="datepicker" type="date" name="Data" value="Melhor Data" onfocus="this.value = '';"></div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+        <textarea class="form-control" rows="7" cols="20" placeholder="O que precisamos saber sobre o seu Pet?" name="Mensagem" required=""></textarea></div>
+        <input type="submit" id="" class="btn btn-default" value="ENVIAR">
+        <input type="submit" id="" class="reset" value="Limpar">
+        </form></td></Center><td>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63697.83938985054!2d-38.66876118925587!3d-3.7851534009777263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74d51f0826bd1%3A0xaea88ca980b7f869!2sCl%C3%ADnica%20Veterin%C3%A1ria%20Doctor%20Vet%2024%20horas!5e0!3m2!1spt-BR!2sbr!4v1668095780136!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </td></div> </div>
+
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
